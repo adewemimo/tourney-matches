@@ -1,5 +1,4 @@
 function Player(props) {
-  console.log(props);
   const {gamerTag, firstName, lastName, wins} = props;
   return (
     <article className="Player">

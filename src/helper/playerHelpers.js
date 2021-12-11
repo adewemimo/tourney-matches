@@ -7,7 +7,6 @@ export const preparePlayerData = (playerData) => {
 //Wins key needs to be added to each player object
 export const addWinsToPlayers = (matchData, playerDataArray) => {
     playerDataArray.map((player) => {
-
         const playerTotalWin = matchData.reduce((accumulator, currentValue) => {
             if (currentValue.winner === player.gamerTag) {
                 accumulator++;
@@ -15,6 +14,7 @@ export const addWinsToPlayers = (matchData, playerDataArray) => {
             return accumulator;
         }, 0);
         player.wins = playerTotalWin;
+        return player;
     })
     return playerDataArray;
     }

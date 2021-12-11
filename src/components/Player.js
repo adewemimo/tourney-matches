@@ -1,5 +1,5 @@
 function Player(props) {
-  const {gamerTag, firstName, lastName, wins} = props;
+  const { gamerTag, firstName, lastName, wins } = props;
   return (
     <article className="Player">
       <h1>

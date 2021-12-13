@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Project: Tourney Matches - A react app that shows the use of mock data - players and matches data passed as props to child components
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
